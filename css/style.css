@@ -38,6 +38,7 @@ header .container {
 /* nav btn */
 
 #nav-btn {
+  letter-spacing: 0;
   color: black;
   background-color: #fff;
   padding: 1rem 1.5rem;
