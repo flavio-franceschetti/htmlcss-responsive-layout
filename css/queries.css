@@ -1,0 +1,24 @@
+/* ***************************** */
+/* ABOVE 320px (TABLETS) */
+/* ***************************** */
+
+@media all and (min-width: 320px) {
+}
+
+/* ***************************** */
+/* ABOVE 768px (DESKTOP) */
+/* ***************************** */
+@media all and (min-width: 768px) {
+  /* header */
+  header .container {
+    width: 70%;
+  }
+
+  .hamburgher {
+    display: none;
+  }
+
+  .main-nav {
+    display: block;
+  }
+}

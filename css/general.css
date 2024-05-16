@@ -18,3 +18,7 @@ body {
   width: 90%;
   margin: 0 auto;
 }
+
+.btn {
+  border-radius: 2rem;
+}

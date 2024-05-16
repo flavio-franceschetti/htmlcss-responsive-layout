@@ -2,7 +2,7 @@
 
 header {
   background-color: #0084fd;
-  height: 70px;
+  height: 7rem;
 }
 
 header .container {
@@ -17,6 +17,28 @@ header .container {
   color: #fff;
 }
 
+/* DESKTOP MAIN NAV */
 .main-nav {
   display: none;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav-list li a {
+  font-weight: 400;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* nav btn */
+
+#nav-btn {
+  color: black;
+  background-color: #fff;
+  padding: 1rem 1.5rem;
 }
