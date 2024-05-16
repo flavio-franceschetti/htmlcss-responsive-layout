@@ -1,15 +1,33 @@
 /* ***************************** */
-/* ABOVE 320px (TABLETS) */
+/* ABOVE 768px (TABLETS) */
 /* ***************************** */
 
-@media all and (min-width: 480px) {
+@media all and (min-width: 768px) {
+  /* FEATURE SECTION */
+  .feature-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .feature-section .col {
+    width: calc(100% / 3 - 10px);
+  }
+
+  .feature-section .first-col {
+    width: calc((100% / 3) * 2);
+  }
+
+  .first-col-img {
+    width: 50%;
+  }
 }
 
 /* ***************************** */
-/* ABOVE 768px (DESKTOP) */
+/* ABOVE 1200px (DESKTOP) */
 /* ***************************** */
-@media all and (min-width: 768px) {
-  /* header */
+@media all and (min-width: 1200px) {
+  /* HEADER */
   header .container {
     width: 70%;
   }
@@ -20,5 +38,25 @@
 
   .main-nav {
     display: block;
+  }
+
+  /* FEATURE SECTION */
+
+  .feature-section.container {
+    width: 70%;
+  }
+
+  /* first card */
+  .feature-section .first-col {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .first-col-content {
+    width: 50%;
+  }
+
+  .first-col-img img {
+    max-width: 70%;
   }
 }
