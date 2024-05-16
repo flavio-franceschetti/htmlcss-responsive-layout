@@ -1,0 +1,22 @@
+/* HEADER */
+
+header {
+  background-color: #0084fd;
+  height: 70px;
+}
+
+header .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hamburgher {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.main-nav {
+  display: none;
+}
