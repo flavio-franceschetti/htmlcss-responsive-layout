@@ -48,8 +48,7 @@ header .container {
 
 .feature-section .col {
   background-color: #b5ddff;
-  /* debug */
-  min-height: 200px;
+  text-align: center;
 }
 
 /* cols */
@@ -64,6 +63,10 @@ header .container {
 }
 
 /* first col */
+
+.feature-section .first-col {
+  text-align: left;
+}
 
 .feature-section-btn {
   font-weight: 700;
@@ -83,4 +86,13 @@ header .container {
 
 .first-col {
   padding-bottom: 0;
+}
+
+/* general feature col */
+
+.col-icon {
+  text-align: center;
+  font-size: 7rem;
+  color: #0084fd;
+  margin-bottom: 2rem;
 }
