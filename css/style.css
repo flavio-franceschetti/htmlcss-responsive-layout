@@ -3,6 +3,7 @@
 header {
   background-color: #0084fd;
   height: 7rem;
+  margin-bottom: 4rem;
 }
 
 header .container {
@@ -24,6 +25,7 @@ header .container {
 
 .nav-list {
   display: flex;
+  align-items: center;
   list-style: none;
   gap: 2rem;
 }
@@ -31,8 +33,6 @@ header .container {
 .nav-list li a {
   font-weight: 400;
   font-size: 1.6rem;
-  text-decoration: none;
-  color: #fff;
 }
 
 /* nav btn */
@@ -41,4 +41,46 @@ header .container {
   color: black;
   background-color: #fff;
   padding: 1rem 1.5rem;
+}
+
+/* MAIN */
+/* feature section */
+
+.feature-section .col {
+  background-color: #b5ddff;
+  /* debug */
+  min-height: 200px;
+}
+
+/* cols */
+
+.feature-section .col-title {
+  color: #0084fd;
+}
+
+.feature-section .col-text {
+  font-weight: 700;
+  color: #63839e;
+}
+
+/* first col */
+
+.feature-section-btn {
+  font-weight: 700;
+  background-color: #0084fd;
+  font-size: 1.6rem;
+  margin-bottom: 3.2rem;
+}
+
+.first-col-img {
+  position: relative;
+  bottom: -3px;
+}
+
+.first-col-img img {
+  max-width: 100%;
+}
+
+.first-col {
+  padding-bottom: 0;
 }

@@ -1,3 +1,11 @@
+/* --- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +20,10 @@ body {
   font-family: "PT Sans", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
 /* REUSABLE */
 
 .container {
@@ -20,5 +32,25 @@ body {
 }
 
 .btn {
+  display: inline-block;
   border-radius: 2rem;
+  padding: 0.8rem 3rem;
+  letter-spacing: 3px;
+}
+
+.col {
+  width: 100%;
+  border-radius: 2rem;
+  padding: 3.3rem 2.4rem;
+}
+
+.col-title {
+  font-size: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.col-text {
+  font-size: 1.6rem;
+  margin-bottom: 2.4rem;
+  line-height: 1.8;
 }
