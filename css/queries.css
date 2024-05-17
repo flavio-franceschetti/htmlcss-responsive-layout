@@ -38,6 +38,17 @@
   .testimonial-card-content {
     width: 70%;
   }
+
+  /* BENEFIT SECTION */
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .benefit-section .col {
+    width: 48%;
+  }
 }
 
 /* ***************************** */
@@ -102,5 +113,20 @@
   /* TESTIMONIAL SECTIO */
   .testimonial-section.container {
     width: 60%;
+  }
+
+  /* BENEFIT SECTION */
+  .benefit-section .container {
+    width: 60%;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .benefit-section .col {
+    width: calc(100% / 3 - 15px);
   }
 }
