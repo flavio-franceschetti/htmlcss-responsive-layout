@@ -225,3 +225,41 @@ header .container {
   background-color: #9792e4;
   font-size: 1.8rem;
 }
+
+/* ABOUT US SECTION */
+.about-us-section {
+  padding: 10rem 0 5rem 0;
+}
+
+.about-us-section .section-title {
+  color: #9792e4;
+}
+
+.about-left .col-text {
+  margin-bottom: 4.8rem;
+}
+
+.about-img {
+  margin: 0;
+  position: relative;
+  margin-bottom: 2.4rem;
+}
+
+.about-img .fa-solid {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 6.2rem;
+  color: #9792e4;
+}
+
+.about-right .col-title {
+  font-weight: 700;
+  color: #9792e4;
+}
+
+.about-btn .btn {
+  background-color: #9792e4;
+  letter-spacing: 0;
+  font-size: 1.6rem;
+}
