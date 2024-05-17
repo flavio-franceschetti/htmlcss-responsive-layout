@@ -314,3 +314,22 @@ header .container {
 .copiright a {
   text-decoration: underline;
 }
+
+/* FOOTER */
+
+footer {
+  background-color: #333333;
+  color: #c4c4c4;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 3.2rem 0;
+}
+
+.footer-text {
+  margin-bottom: 4.8rem;
+}
+
+.footer-credits a {
+  text-decoration: underline;
+  color: #7470a7;
+}

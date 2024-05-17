@@ -74,7 +74,12 @@
 
   /* CTA SECTION */
   .cta-section .container {
-    width: 70%;
+    width: 55%;
+  }
+
+  /* FOOTER */
+  footer .container {
+    width: 40%;
   }
 }
 
@@ -164,6 +169,11 @@
 
   /* CTA SECTION */
   .cta-section .container {
-    width: 55%;
+    width: 40%;
+  }
+
+  /* FOOTER */
+  footer .container {
+    width: 30%;
   }
 }
