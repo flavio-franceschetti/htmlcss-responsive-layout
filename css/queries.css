@@ -49,6 +49,28 @@
   .benefit-section .col {
     width: 48%;
   }
+
+  /* ABOUT SECTION */
+  .about-us-section.container {
+    width: 85%;
+  }
+
+  .about-us-section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .about-img {
+    margin-bottom: 4.8rem;
+  }
+
+  .about-left {
+    width: 55%;
+  }
+
+  .about-right {
+    width: 35%;
+  }
 }
 
 /* ***************************** */
@@ -128,5 +150,10 @@
 
   .benefit-section .col {
     width: calc(100% / 3 - 15px);
+  }
+
+  /* ABOUT SECTION */
+  .about-us-section.container {
+    width: 55%;
   }
 }
