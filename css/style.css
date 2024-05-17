@@ -144,3 +144,48 @@ header .container {
   color: black;
   background-color: #9792e4;
 }
+
+/* TESTIMONIAL SECTION */
+.testimonial-content {
+  text-align: center;
+  margin: 4.8rem 0;
+}
+
+.testimonial-section h4 {
+  font-weight: 400;
+  font-size: 2rem;
+  margin-bottom: 3.2rem;
+}
+
+.testimonial-content .section-title {
+  color: #9792e4;
+}
+
+/* testimonial card */
+
+.testimonial-card .col {
+  background-color: #9792e4;
+  text-align: center;
+}
+
+.testimonial-card-img {
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  margin-bottom: 3.2rem;
+}
+
+.testimonial-card-img img {
+  border-radius: 50%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.testimonial-card-content .col-text,
+.testimonial-name {
+  color: #fff;
+}
+
+.testimonial-name {
+  font-weight: 700;
+}
