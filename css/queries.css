@@ -71,6 +71,11 @@
   .about-right {
     width: 35%;
   }
+
+  /* CTA SECTION */
+  .cta-section .container {
+    width: 70%;
+  }
 }
 
 /* ***************************** */
@@ -154,6 +159,11 @@
 
   /* ABOUT SECTION */
   .about-us-section.container {
+    width: 55%;
+  }
+
+  /* CTA SECTION */
+  .cta-section .container {
     width: 55%;
   }
 }
