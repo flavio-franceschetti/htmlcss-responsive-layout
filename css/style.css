@@ -99,7 +99,7 @@ header .container {
 
 .planning-section {
   background-color: #9792e4;
-  padding: 5rem 0;
+  padding: 10rem 0 5rem 0;
 }
 
 .planning-content {
@@ -120,6 +120,7 @@ header .container {
 .planning-card .col {
   text-align: center;
   background-color: #fff;
+  border-radius: 6.4rem;
 }
 
 .planning-card-img {

@@ -64,4 +64,21 @@
   .feature-section-btn {
     padding: 1.2rem 4rem;
   }
+
+  /* PLANNING SECTION */
+
+  .planning-section .container {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .planning-content,
+  .planning-card {
+    width: 50%;
+  }
+
+  .planning-img {
+    margin-bottom: 6.8rem;
+  }
 }
