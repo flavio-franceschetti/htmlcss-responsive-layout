@@ -82,10 +82,6 @@ header .container {
   bottom: -3px;
 }
 
-.first-col-img img {
-  max-width: 100%;
-}
-
 .first-col {
   padding-bottom: 0;
 }
@@ -97,4 +93,53 @@ header .container {
   font-size: 7rem;
   color: #0084fd;
   margin-bottom: 2rem;
+}
+
+/* STRATEGIC PLANNING SECTION */
+
+.planning-section {
+  background-color: #9792e4;
+  padding: 5rem 0;
+}
+
+.planning-content {
+  padding: 0 2.4rem;
+}
+
+.planning-img {
+  margin-bottom: 2.4rem;
+  text-align: center;
+}
+
+.planning-section .section-title,
+.planning-section .col-text {
+  color: #fff;
+}
+
+/* planning card */
+.planning-card .col {
+  text-align: center;
+  background-color: #fff;
+}
+
+.planning-card-img {
+  margin-bottom: 2.4rem;
+}
+
+.planning-card .col-text {
+  color: black;
+  font-style: italic;
+}
+
+.planning-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  font-size: 2.4rem;
+  border-radius: 50%;
+  color: black;
+  background-color: #9792e4;
 }
