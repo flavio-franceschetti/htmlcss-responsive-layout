@@ -21,6 +21,23 @@
   .first-col-img {
     width: 50%;
   }
+
+  /* TESTIMONIALS SECTION */
+
+  .testimonial-card .col {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    text-align: left;
+  }
+
+  .testimonial-card-img {
+    margin: 0;
+  }
+
+  .testimonial-card-content {
+    width: 70%;
+  }
 }
 
 /* ***************************** */
@@ -80,5 +97,10 @@
 
   .planning-img {
     margin-bottom: 6.8rem;
+  }
+
+  /* TESTIMONIAL SECTIO */
+  .testimonial-section.container {
+    width: 60%;
   }
 }
