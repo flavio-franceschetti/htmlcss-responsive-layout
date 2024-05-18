@@ -1,5 +1,4 @@
 /* HEADER */
-
 header {
   background-color: #0084fd;
   height: 7rem;
@@ -36,7 +35,6 @@ header .container {
 }
 
 /* nav btn */
-
 #nav-btn {
   letter-spacing: 0;
   color: black;
@@ -46,25 +44,22 @@ header .container {
 
 /* MAIN */
 /* feature section */
-
 .feature-section .col {
   background-color: #b5ddff;
   text-align: center;
 }
 
 /* cols */
-
-.feature-section .col-title {
+.feature-section .small-title {
   color: #0084fd;
 }
 
-.feature-section .col-text {
+.feature-section .main-text {
   font-weight: 700;
   color: #63839e;
 }
 
 /* first col */
-
 .feature-section .first-col {
   text-align: left;
 }
@@ -87,7 +82,6 @@ header .container {
 }
 
 /* general feature col */
-
 .col-icon {
   text-align: center;
   font-size: 7rem;
@@ -96,7 +90,6 @@ header .container {
 }
 
 /* STRATEGIC PLANNING SECTION */
-
 .planning-section {
   background-color: #9792e4;
   padding: 10rem 0 5rem 0;
@@ -111,8 +104,8 @@ header .container {
   text-align: center;
 }
 
-.planning-section .section-title,
-.planning-section .col-text {
+.planning-section .big-title,
+.planning-section .main-text {
   color: #fff;
 }
 
@@ -127,7 +120,7 @@ header .container {
   margin-bottom: 2.4rem;
 }
 
-.planning-card .col-text {
+.planning-card .main-text {
   color: black;
   font-style: italic;
 }
@@ -157,12 +150,11 @@ header .container {
   margin-bottom: 3.2rem;
 }
 
-.testimonial-content .section-title {
+.testimonial-content .big-title {
   color: #9792e4;
 }
 
 /* testimonial card */
-
 .testimonial-card .col {
   background-color: #9792e4;
   text-align: center;
@@ -181,7 +173,7 @@ header .container {
   object-fit: cover;
 }
 
-.testimonial-card-content .col-text,
+.testimonial-card-content .main-text,
 .testimonial-name {
   color: #fff;
 }
@@ -196,7 +188,7 @@ header .container {
   background-color: #9792e4;
 }
 
-.benefit-section .section-title {
+.benefit-section .big-title {
   text-align: center;
   color: #fff;
   margin-bottom: 4.8rem;
@@ -213,11 +205,11 @@ header .container {
   margin-bottom: 3.2rem;
 }
 
-.benefit-section .col-title {
+.benefit-section .small-title {
   color: #9792e4;
 }
 
-.benefit-section .col-text {
+.benefit-section .main-text {
   color: #737373;
 }
 
@@ -231,11 +223,11 @@ header .container {
   padding: 10rem 0 5rem 0;
 }
 
-.about-us-section .section-title {
+.about-us-section .big-title {
   color: #9792e4;
 }
 
-.about-left .col-text {
+.about-left .main-text {
   margin-bottom: 4.8rem;
 }
 
@@ -253,7 +245,7 @@ header .container {
   color: #9792e4;
 }
 
-.about-right .col-title {
+.about-right .small-title {
   font-weight: 700;
   color: #9792e4;
 }
@@ -281,18 +273,18 @@ header .container {
   color: rgba(237, 237, 237, 0.633);
 }
 
-.cta-section .col-title {
+.cta-section .small-title {
   color: #fff;
   font-size: 4.4rem;
 }
 
-.cta-section .section-title {
+.cta-section .big-title {
   font-size: 7.4rem;
   color: #fec160;
   font-weight: 700;
 }
 
-.cta-section .col-text {
+.cta-section .main-text {
   color: #fff;
 }
 
@@ -316,7 +308,6 @@ header .container {
 }
 
 /* FOOTER */
-
 footer {
   background-color: #333333;
   color: #c4c4c4;

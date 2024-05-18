@@ -28,8 +28,8 @@ a {
 img {
   max-width: 100%;
 }
-/* REUSABLE */
 
+/* REUSABLE */
 .container {
   width: 90%;
   margin: 0 auto;
@@ -49,18 +49,18 @@ img {
   margin-bottom: 2.4rem;
 }
 
-.col-title {
+.small-title {
   font-size: 2.4rem;
   margin-bottom: 2.4rem;
 }
 
-.col-text {
+.big-title {
+  font-size: 4.4rem;
+  margin-bottom: 3rem;
+}
+
+.main-text {
   font-size: 1.8rem;
   margin-bottom: 2.4rem;
   line-height: 1.8;
-}
-
-.section-title {
-  font-size: 4.4rem;
-  margin-bottom: 3rem;
 }

@@ -23,7 +23,6 @@
   }
 
   /* TESTIMONIALS SECTION */
-
   .testimonial-card .col {
     display: flex;
     gap: 2rem;
@@ -101,7 +100,6 @@
   }
 
   /* FEATURE SECTION */
-
   .feature-section.container {
     width: 60%;
   }
@@ -126,7 +124,6 @@
   }
 
   /* PLANNING SECTION */
-
   .planning-section .container {
     width: 60%;
     display: flex;
