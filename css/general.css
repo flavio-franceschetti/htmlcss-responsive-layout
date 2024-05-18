@@ -30,6 +30,10 @@ img {
 }
 
 /* REUSABLE */
+.section-padding {
+  padding: 6.4rem 0;
+}
+
 .container {
   width: 90%;
   margin: 0 auto;

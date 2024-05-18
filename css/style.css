@@ -46,6 +46,10 @@ header .container {
 
 /* MAIN */
 /* feature section */
+.feature-section {
+  padding: 9.6rem 0 6.4rem 0;
+}
+
 .feature-section .col {
   background-color: #b5ddff;
   text-align: center;
@@ -94,7 +98,6 @@ header .container {
 /* STRATEGIC PLANNING SECTION */
 .planning-section {
   background-color: #9792e4;
-  padding: 10rem 0 5rem 0;
 }
 
 .planning-content {
@@ -143,7 +146,6 @@ header .container {
 /* TESTIMONIAL SECTION */
 .testimonial-content {
   text-align: center;
-  margin: 4.8rem 0;
 }
 
 .testimonial-section h4 {
@@ -186,7 +188,6 @@ header .container {
 
 /* BENEFIT SECTION */
 .benefit-section {
-  padding: 4.8rem 0 3.2rem 0;
   background-color: #9792e4;
 }
 
@@ -221,10 +222,6 @@ header .container {
 }
 
 /* ABOUT US SECTION */
-.about-us-section {
-  padding: 10rem 0 5rem 0;
-}
-
 .about-us-section .big-title {
   color: #9792e4;
 }
@@ -262,10 +259,6 @@ header .container {
 .cta-section {
   background-color: #9792e4;
   text-align: center;
-}
-
-.cta-section .container {
-  padding: 10rem 0;
 }
 
 .cta-section h4 {
