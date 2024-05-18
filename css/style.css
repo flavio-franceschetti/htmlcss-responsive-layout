@@ -1,8 +1,10 @@
 /* HEADER */
 header {
   background-color: #0084fd;
-  height: 7rem;
-  margin-bottom: 4rem;
+  height: 6.4rem;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
 }
 
 header .container {
